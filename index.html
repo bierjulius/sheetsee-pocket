@@ -59,7 +59,7 @@
     function showInfo(data) {
       var gData = separateTags(data)
       drawTags(gData)
-      cleanDates(gData)
+      //cleanDates(gData)
       pageTitle(gData)
       Sheetsee.makeTable(gData.reverse(), "#articleTable")
       Sheetsee.initiateTableFilter(gData, "#articleSearch", "#articleTable")
